@@ -1,0 +1,31 @@
+.game {
+    color: red;
+    background-color: orange;
+    font-size: 60px;
+    width: 500px;
+    height: 150px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:lawngreen;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    grid-gap: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
